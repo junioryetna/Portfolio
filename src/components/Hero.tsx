@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/Button';
-import images from '../images/image.png';
+import images from '../images/Image.png';
 import { Dots } from './ui/Dots';
 export function Hero() {
   return (

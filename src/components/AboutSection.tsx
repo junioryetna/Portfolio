@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dots } from './ui/Dots';
-import image from '../images/image.png';
+import image from '../images/Image.png';
 const funFacts = [
 'I like winter more than summer',
 'I often bike with my friends',

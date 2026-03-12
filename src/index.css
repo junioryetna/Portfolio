@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply bg-[#282C33] text-[#ABB2BF] font-mono antialiased;
+    font-family: 'Fira Code', monospace;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-medium;
+  }
+}
+/* Custom scrollbar for terminal feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #282C33;
+}
+::-webkit-scrollbar-thumb {
+  background: #ABB2BF;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C778DD;
+}
